@@ -1,0 +1,70 @@
+<html lang="en"><head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="CSSFILE\style.css">
+
+</head>
+<body>
+  <div class="container">
+      <div class="top">
+          <div class="navbar">
+              <ul>
+                  <li><a href="../Home page.html">Home</a></li>
+                  <li><a href="page1.html">My CV</a></li>
+                  <li><a href="page2.html">Blog</a></li>
+                  <li><a href="page3.html">Research</a></li>
+                  <li><a href="page4.html" class="active">Contact us</a></li>
+               </ul>
+          </div>
+      </div>
+      <div class="content">
+
+          <div class="contactform">
+              <h1>Contact Us</h1>
+              <p>Fill the form if you want to contact us </p>
+              <form name="personaldetail" onsubmit="submitForm()">
+                  <table>
+                      <tbody><tr>
+                          <td>Name:</td>
+                          <td> <input type="text" name="nam"></td>
+                      </tr>
+                      <tr>
+                          <td>Address:</td>
+                          <td><input type="text" name="add"></td>
+                      </tr>
+                      <tr>
+                          <td> Phone Number:</td>
+                          <td><input type="text" name="num"></td>
+                      </tr>
+                      <tr>
+                          <td>Email:</td>
+                          <td><input type="text" name="email"></td>
+                      </tr>
+                      <tr>
+                          <td>SEX:</td>
+                          <td><input type="radio" name="gen" value="male">Male</td>
+                          <td><input type="radio" name="gen" value="female">Female</td>
+                      </tr>
+                      <tr>
+                          <td><label>Desribe Yourself:</label></td>
+                          <td><textarea name="Message"></textarea></td>
+                      </tr>
+                      <tr>
+                          <td><input class="button" type="submit" value="Submit"></td>
+                      </tr>
+                  </tbody></table>
+                
+              </form>
+          </div>
+
+      </div>
+      <!-- Way to link html file with a external javascript file.-->
+      <script src="../jss/javascript.js">
+      </script>
+      <div class="bottom">
+          <footer id="main-footer">
+          <p>Copyright © 2021 Rhythm Sapkota</p>
+        </footer>
+      </div>
+  </div>
+
+</body></html>
